@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T07:54:15.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZGmwzlZVfT6gSXVpeDOy" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T10:17:39.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="F_r5VDfVPx7IOCht0MWJ" version="22.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2261" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Yo3QJKmBX_KmEjt6CQ4-0" target="8Yo3QJKmBX_KmEjt6CQ4-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-225" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Yo3QJKmBX_KmEjt6CQ4-0" target="8Yo3QJKmBX_KmEjt6CQ4-224">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-0" value="Модуль для работы с withdraw (выводами)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -352,13 +355,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-181" value="У меня есть необходимое количество HFU и я хочу купить контракт." style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="960" y="420" width="70" height="140" as="geometry" />
+          <mxGeometry x="890" y="480" width="70" height="140" as="geometry" />
         </mxCell>
         <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Yo3QJKmBX_KmEjt6CQ4-182" target="8Yo3QJKmBX_KmEjt6CQ4-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-182" value="Я хочу купить HFU" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="310" width="106" height="120" as="geometry" />
+          <mxGeometry x="400" y="450" width="106" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-185" value="Я хочу вывести деньги" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-475" y="370" width="75" height="110" as="geometry" />
@@ -415,8 +418,8 @@
             <mxPoint x="-440" y="1920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-207" value="Если&amp;nbsp; больше месяца, комиссия 2.5%" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-500" y="1780" width="120" height="60" as="geometry" />
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-207" value="Если&amp;nbsp; больше месяца, комиссия 2.5%.&amp;nbsp;&lt;br&gt;Дальше операции проводим по формуле изначальная сумма - комиссия" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-500" y="1780" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-213" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Yo3QJKmBX_KmEjt6CQ4-211" target="8Yo3QJKmBX_KmEjt6CQ4-212">
           <mxGeometry relative="1" as="geometry" />
@@ -448,8 +451,29 @@
         <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-218" value="Собрать сумму со всех имеющихся контрактов по полям&lt;br&gt;referral_bal&lt;br&gt;dep_bal. Если в первом контракте их недостаточно - продолжаем сбор со следующего" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-291.75" y="2130" width="171.75" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-220" value="Создаем транзакцию на вывод средств. В статусе processing" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-223" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Yo3QJKmBX_KmEjt6CQ4-220" target="8Yo3QJKmBX_KmEjt6CQ4-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-220" value="Создаем транзакцию на вывод средств с учетом комисси. В статусе processing" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-291.75" y="2350" width="171.75" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-229" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Yo3QJKmBX_KmEjt6CQ4-222" target="8Yo3QJKmBX_KmEjt6CQ4-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-222" value="Отправляем запрос на API crypto PAY" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-291.75" y="2570" width="171.75" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-227" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Yo3QJKmBX_KmEjt6CQ4-224" target="8Yo3QJKmBX_KmEjt6CQ4-226">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-224" value="Вебхук от API CRYPTO PAY.&lt;br&gt;Оповещает что вывод средств закончился успешно или нет" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-860" y="715" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-226" value="Обновляем статус транзакции." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-860" y="900" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="8Yo3QJKmBX_KmEjt6CQ4-228" value="Возвращаем пользователю сумму которая должна ему зачислиться в (с просчитанной комиссией) $" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-291.75" y="2790" width="171.75" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
