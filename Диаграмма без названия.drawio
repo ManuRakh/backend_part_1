@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T09:16:13.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="behCg6cg0Yl2gbO7kmNU" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T09:17:47.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Yii7wEa8_lBZH5KamIS8" version="22.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="6176" dy="2645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5915" dy="2511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -589,26 +589,31 @@
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-7" value="Расчитать сколько дней подряд этот юзер приглашал пользователей" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1940" y="1420" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="-Xfm0Dhquag2M_tKsHMx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-9">
+        <mxCell id="-Xfm0Dhquag2M_tKsHMx-12" value="1 день" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-9" target="-Xfm0Dhquag2M_tKsHMx-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2270" y="1755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Xfm0Dhquag2M_tKsHMx-13" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Xfm0Dhquag2M_tKsHMx-12">
-          <mxGeometry x="0.0565" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="-Xfm0Dhquag2M_tKsHMx-54" value="1 день" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Xfm0Dhquag2M_tKsHMx-12">
+          <mxGeometry x="-0.7025" y="4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-9" target="-Xfm0Dhquag2M_tKsHMx-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-Xfm0Dhquag2M_tKsHMx-24" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Xfm0Dhquag2M_tKsHMx-23">
+        <mxCell id="-Xfm0Dhquag2M_tKsHMx-24" value="7 дней" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Xfm0Dhquag2M_tKsHMx-23">
           <mxGeometry x="-0.286" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-9" target="-Xfm0Dhquag2M_tKsHMx-41">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Xfm0Dhquag2M_tKsHMx-56" value="3 дня" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Xfm0Dhquag2M_tKsHMx-42">
+          <mxGeometry x="-0.3621" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-9" value="1, 3 или 7 дней?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-2171.25" y="1700" width="112.5" height="110" as="geometry" />
@@ -619,7 +624,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-11" value="Найти в таблице pool_activities пулы для заданного юзера.&lt;br&gt;Вытащить поле&amp;nbsp;first_pool_date.&amp;nbsp;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-2220" y="1662.5" width="230" height="185" as="geometry" />
+          <mxGeometry x="-2520" y="1675" width="230" height="185" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-14" target="-Xfm0Dhquag2M_tKsHMx-16">
           <mxGeometry relative="1" as="geometry" />
@@ -650,19 +655,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-22" value="Найти в таблице pool_activities пулы для заданного юзера.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Вытащить поле&amp;nbsp;third_pool_date.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1975" y="1697.5" width="202.5" height="115" as="geometry" />
+          <mxGeometry x="-1890" y="1697.5" width="202.5" height="115" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-27" target="-Xfm0Dhquag2M_tKsHMx-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-27" value="Расчитать сколько дней назад прошло с момента&amp;nbsp;third_pool_date" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1975" y="1847.5" width="202.5" height="115" as="geometry" />
+          <mxGeometry x="-1890" y="1860" width="202.5" height="115" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-29" target="-Xfm0Dhquag2M_tKsHMx-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-29" value="Отнять от 7 полученный результат, либо от полученного результата отнять 7.&amp;nbsp;&lt;br&gt;Пример,&amp;nbsp;&lt;br&gt;1. third_pool_date = 14.&lt;br&gt;2. 14-7 = 7&lt;br&gt;Другой пример&lt;br&gt;1. third_pool_date = 3&lt;br&gt;2. 7-3 = 4" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1975" y="2042.5" width="205" height="167.5" as="geometry" />
+          <mxGeometry x="-1890" y="2040" width="205" height="167.5" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-31" target="-Xfm0Dhquag2M_tKsHMx-19">
           <mxGeometry relative="1" as="geometry" />
@@ -681,10 +686,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-31" value="Полученный результат больше или равен 7 ?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1943.75" y="2373.75" width="142.5" height="186.25" as="geometry" />
+          <mxGeometry x="-1860" y="2380" width="142.5" height="186.25" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-37" value="Не награждаем" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1711.25" y="2436.875" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1620" y="2443.125" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Xfm0Dhquag2M_tKsHMx-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-Xfm0Dhquag2M_tKsHMx-41" target="-Xfm0Dhquag2M_tKsHMx-22">
           <mxGeometry relative="1" as="geometry" />
